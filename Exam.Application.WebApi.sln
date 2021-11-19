@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam.Application.WebApi.Host", "Exam.Application.WebApi\Exam.Application.WebApi.Host.csproj", "{77A0593D-ECE9-4460-BDFD-60FF20B482F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exam.Application.WebApi.Host", "Exam.Application.WebApi\Exam.Application.WebApi.Host.csproj", "{77A0593D-ECE9-4460-BDFD-60FF20B482F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam.Application.WebApi.Domain", "Exam.Application.WebApi.Domain\Exam.Application.WebApi.Domain.csproj", "{C2A59CF2-FC60-4807-859B-1D1EBB92BB2B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exam.Application.WebApi.Domain", "Exam.Application.WebApi.Domain\Exam.Application.WebApi.Domain.csproj", "{C2A59CF2-FC60-4807-859B-1D1EBB92BB2B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam.Application.WebApi.Application", "Exam.Application.WebApi.Application\Exam.Application.WebApi.Application.csproj", "{93C94F93-0A31-4BFD-82B3-D61B13E58B1D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exam.Application.WebApi.Application", "Exam.Application.WebApi.Application\Exam.Application.WebApi.Application.csproj", "{93C94F93-0A31-4BFD-82B3-D61B13E58B1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam.Application.WebApi.Infrastructure", "Exam.Application.WebApi.Infrastructure\Exam.Application.WebApi.Infrastructure.csproj", "{58159DA0-C731-43DA-AC1B-E9FC1CFD85F0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{93C94F93-0A31-4BFD-82B3-D61B13E58B1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93C94F93-0A31-4BFD-82B3-D61B13E58B1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93C94F93-0A31-4BFD-82B3-D61B13E58B1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58159DA0-C731-43DA-AC1B-E9FC1CFD85F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58159DA0-C731-43DA-AC1B-E9FC1CFD85F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58159DA0-C731-43DA-AC1B-E9FC1CFD85F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58159DA0-C731-43DA-AC1B-E9FC1CFD85F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

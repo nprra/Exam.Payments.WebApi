@@ -9,4 +9,9 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Exam.Application.WebApi.Application\Exam.Application.WebApi.Application.csproj" />
+    <ProjectReference Include="..\Exam.Application.WebApi.Infrastructure\Exam.Application.WebApi.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>

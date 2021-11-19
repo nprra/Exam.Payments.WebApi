@@ -5,12 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="9.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="5.0.12" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Exam.Application.WebApi.Domain\Exam.Application.WebApi.Domain.csproj" />
-    <ProjectReference Include="..\Exam.Application.WebApi.Infrastructure\Exam.Application.WebApi.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
