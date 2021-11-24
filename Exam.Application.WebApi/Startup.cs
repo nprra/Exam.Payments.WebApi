@@ -1,5 +1,5 @@
-using Exam.Application.WebApi.Application.Infrastructure;
-using Exam.Application.WebApi.Host;
+using Exam.Payments.WebApi.Application.Infrastructure;
+using Exam.Payments.WebApi.Host;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -7,7 +7,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 
-namespace Exam.Application.WebApi
+namespace Exam.Payments.WebApi
 {
     public class Startup
     {
@@ -25,7 +25,7 @@ namespace Exam.Application.WebApi
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Exam.Application.WebApi", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Exam.Payments.WebApi", Version = "v1" });
             });
 
             services.AddDbServices();
@@ -40,7 +40,7 @@ namespace Exam.Application.WebApi
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Exam.Application.WebApi v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Exam.Payments.WebApi v1"));
             }
 
             app.UseHttpsRedirection();

@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Exam.Application.WebApi.Host.Controllers
+namespace Exam.Payments.WebApi.Host.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

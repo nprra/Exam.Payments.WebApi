@@ -9,8 +9,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Exam.Application.WebApi.Domain\Exam.Application.WebApi.Domain.csproj" />
-    <ProjectReference Include="..\Exam.Application.WebApi.Infrastructure\Exam.Application.WebApi.Infrastructure.csproj" />
+    <ProjectReference Include="..\Exam.Application.WebApi.Domain\Exam.Payments.WebApi.Domain.csproj" />
+    <ProjectReference Include="..\Exam.Application.WebApi.Infrastructure\Exam.Payments.WebApi.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

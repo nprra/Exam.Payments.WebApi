@@ -1,9 +1,9 @@
-﻿using Exam.Application.WebApi.Domain.Accounts;
-using Exam.Application.WebApi.Domain.Payments;
+﻿using Exam.Payments.WebApi.Domain.Accounts;
+using Exam.Payments.WebApi.Domain.Payments;
 using Microsoft.EntityFrameworkCore;
 using System.Threading.Tasks;
 
-namespace Exam.Application.WebApi.Infrastructure.SqlData
+namespace Exam.Payments.WebApi.Infrastructure.SqlData
 {
     public class ApplicationDbContext : DbContext
     {

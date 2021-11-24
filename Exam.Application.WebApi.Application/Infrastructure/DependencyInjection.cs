@@ -2,7 +2,7 @@
 using Microsoft.Extensions.DependencyInjection;
 using System.Reflection;
 
-namespace Exam.Application.WebApi.Application.Infrastructure
+namespace Exam.Payments.WebApi.Application.Infrastructure
 {
     public static class DependencyInjection
     {

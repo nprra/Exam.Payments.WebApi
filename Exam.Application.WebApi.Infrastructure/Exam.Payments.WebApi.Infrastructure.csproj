@@ -9,7 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Exam.Application.WebApi.Domain\Exam.Application.WebApi.Domain.csproj" />
+    <ProjectReference Include="..\Exam.Application.WebApi.Domain\Exam.Payments.WebApi.Domain.csproj" />
   </ItemGroup>
 
 </Project>

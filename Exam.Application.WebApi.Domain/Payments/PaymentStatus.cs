@@ -1,4 +1,4 @@
-﻿namespace Exam.Application.WebApi.Domain.Payments
+﻿namespace Exam.Payments.WebApi.Domain.Payments
 {
     public enum PaymentStatus
     {

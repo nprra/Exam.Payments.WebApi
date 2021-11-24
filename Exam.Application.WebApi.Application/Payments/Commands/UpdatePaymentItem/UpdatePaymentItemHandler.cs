@@ -1,4 +1,4 @@
-﻿using Exam.Application.WebApi.Infrastructure.SqlData;
+﻿using Exam.Payments.WebApi.Infrastructure.SqlData;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -7,7 +7,7 @@ using System.Net;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Exam.Application.WebApi.Application.Payments.Commands.UpdatePaymentItem
+namespace Exam.Payments.WebApi.Application.Payments.Commands.UpdatePaymentItem
 {
     public class UpdatePaymentItemHandler : 
         IRequestHandler<UpdatePaymentItemCommand, int>

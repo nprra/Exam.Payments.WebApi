@@ -1,9 +1,9 @@
-﻿using Exam.Application.WebApi.Application.Accounts.Commands;
-using Exam.Application.WebApi.Application.Accounts.Queries;
+﻿using Exam.Payments.WebApi.Application.Accounts.Commands;
+using Exam.Payments.WebApi.Application.Accounts.Queries;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
 
-namespace Exam.Application.WebApi.Host.Controllers
+namespace Exam.Payments.WebApi.Host.Controllers
 {
     public class AccountsController : BaseController
     {

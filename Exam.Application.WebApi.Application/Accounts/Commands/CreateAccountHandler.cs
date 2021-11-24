@@ -1,10 +1,10 @@
-﻿using Exam.Application.WebApi.Infrastructure.SqlData;
+﻿using Exam.Payments.WebApi.Infrastructure.SqlData;
 using MediatR;
 using System.Net;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Exam.Application.WebApi.Application.Accounts.Commands
+namespace Exam.Payments.WebApi.Application.Accounts.Commands
 {
     public class CreateAccountHandler : IRequestHandler<CreateAccountCommand, int>
     {

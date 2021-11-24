@@ -1,9 +1,9 @@
-﻿using Exam.Application.WebApi.Domain.Payments;
+﻿using Exam.Payments.WebApi.Domain.Payments;
 using MediatR;
 using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace Exam.Application.WebApi.Application.Payments.Commands.UpdatePaymentItem
+namespace Exam.Payments.WebApi.Application.Payments.Commands.UpdatePaymentItem
 {
     public class UpdatePaymentItemCommand : IRequest<int>
     {

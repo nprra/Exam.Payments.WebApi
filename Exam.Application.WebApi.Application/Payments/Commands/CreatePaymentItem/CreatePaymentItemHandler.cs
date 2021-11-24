@@ -1,10 +1,10 @@
-﻿using Exam.Application.WebApi.Infrastructure.SqlData;
+﻿using Exam.Payments.WebApi.Infrastructure.SqlData;
 using MediatR;
 using System.Net;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Exam.Application.WebApi.Application.Payments.Commands.CreatePaymentItem
+namespace Exam.Payments.WebApi.Application.Payments.Commands.CreatePaymentItem
 {
     public class CreatePaymentItemHandler : IRequestHandler<CreatePaymentItemCommand, int>
     {

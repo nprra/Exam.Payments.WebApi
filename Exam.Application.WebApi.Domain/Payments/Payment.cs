@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Exam.Application.WebApi.Domain.Payments
+namespace Exam.Payments.WebApi.Domain.Payments
 {
     public class Payment
     {

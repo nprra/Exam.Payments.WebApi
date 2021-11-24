@@ -1,9 +1,9 @@
-﻿using Exam.Application.WebApi.Application.Payments.Commands.CreatePaymentItem;
-using Exam.Application.WebApi.Application.Payments.Queries;
+﻿using Exam.Payments.WebApi.Application.Payments.Commands.CreatePaymentItem;
+using Exam.Payments.WebApi.Application.Payments.Queries;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
 
-namespace Exam.Application.WebApi.Host.Controllers
+namespace Exam.Payments.WebApi.Host.Controllers
 {
     public class PaymentsController : BaseController
     {

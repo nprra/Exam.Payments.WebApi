@@ -1,12 +1,12 @@
-﻿using Exam.Application.WebApi.Domain.Accounts;
-using Exam.Application.WebApi.Infrastructure.SqlData;
+﻿using Exam.Payments.WebApi.Domain.Accounts;
+using Exam.Payments.WebApi.Infrastructure.SqlData;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Exam.Application.WebApi.Application.Accounts.Queries
+namespace Exam.Payments.WebApi.Application.Accounts.Queries
 {
     public class GetAccountsHandler : IRequestHandler<GetAccountsQuery, IList<Account>>
     {

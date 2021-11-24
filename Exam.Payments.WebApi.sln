@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exam.Application.WebApi.Host", "Exam.Application.WebApi\Exam.Application.WebApi.Host.csproj", "{77A0593D-ECE9-4460-BDFD-60FF20B482F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exam.Payments.WebApi.Host", "Exam.Application.WebApi\Exam.Payments.WebApi.Host.csproj", "{77A0593D-ECE9-4460-BDFD-60FF20B482F3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exam.Application.WebApi.Domain", "Exam.Application.WebApi.Domain\Exam.Application.WebApi.Domain.csproj", "{C2A59CF2-FC60-4807-859B-1D1EBB92BB2B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exam.Payments.WebApi.Domain", "Exam.Application.WebApi.Domain\Exam.Payments.WebApi.Domain.csproj", "{C2A59CF2-FC60-4807-859B-1D1EBB92BB2B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exam.Application.WebApi.Application", "Exam.Application.WebApi.Application\Exam.Application.WebApi.Application.csproj", "{93C94F93-0A31-4BFD-82B3-D61B13E58B1D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exam.Payments.WebApi.Application", "Exam.Application.WebApi.Application\Exam.Payments.WebApi.Application.csproj", "{93C94F93-0A31-4BFD-82B3-D61B13E58B1D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exam.Application.WebApi.Infrastructure", "Exam.Application.WebApi.Infrastructure\Exam.Application.WebApi.Infrastructure.csproj", "{58159DA0-C731-43DA-AC1B-E9FC1CFD85F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exam.Payments.WebApi.Infrastructure", "Exam.Application.WebApi.Infrastructure\Exam.Payments.WebApi.Infrastructure.csproj", "{58159DA0-C731-43DA-AC1B-E9FC1CFD85F0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{702A6E06-9B3C-4E6B-BF84-D26BAF5BA2CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam.Application.WebApi.Tests", "Exam.Application.WebApi.Tests\Exam.Application.WebApi.Tests.csproj", "{78A429DC-EA1D-4E69-AFA6-487FB645B4A4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exam.Payments.WebApi.Tests", "Exam.Application.WebApi.Tests\Exam.Payments.WebApi.Tests.csproj", "{78A429DC-EA1D-4E69-AFA6-487FB645B4A4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,5 +1,5 @@
-﻿using Exam.Application.WebApi.Domain.Payments;
-using Exam.Application.WebApi.Infrastructure.SqlData;
+﻿using Exam.Payments.WebApi.Domain.Payments;
+using Exam.Payments.WebApi.Infrastructure.SqlData;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
@@ -7,7 +7,7 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Exam.Application.WebApi.Application.Payments.Queries
+namespace Exam.Payments.WebApi.Application.Payments.Queries
 {
     public class GetPaymentsHandler: IRequestHandler<GetPaymentsQuery, IList<Payment>>
     {

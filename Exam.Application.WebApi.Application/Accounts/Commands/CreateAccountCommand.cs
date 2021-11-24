@@ -1,7 +1,7 @@
-﻿using Exam.Application.WebApi.Domain.Accounts;
+﻿using Exam.Payments.WebApi.Domain.Accounts;
 using MediatR;
 
-namespace Exam.Application.WebApi.Application.Accounts.Commands
+namespace Exam.Payments.WebApi.Application.Accounts.Commands
 {
     public class CreateAccountCommand : IRequest<int>
     {

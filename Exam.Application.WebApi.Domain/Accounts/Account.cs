@@ -1,8 +1,8 @@
-﻿using Exam.Application.WebApi.Domain.Payments;
+﻿using Exam.Payments.WebApi.Domain.Payments;
 using System;
 using System.Collections.Generic;
 
-namespace Exam.Application.WebApi.Domain.Accounts
+namespace Exam.Payments.WebApi.Domain.Accounts
 {
     public class Account
     {
