@@ -1,4 +1,6 @@
 using Exam.Payments.WebApi.Application;
+using Exam.Payments.WebApi.Domain.Logger;
+using Exam.Payments.WebApi.Host.Extensions;
 using Exam.Payments.WebApi.Infrastructure;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -21,7 +23,6 @@ namespace Exam.Payments.WebApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
@@ -30,11 +31,12 @@ namespace Exam.Payments.WebApi
 
             services.AddDbServices();
             services.AddApplication();
+            services.ConfigureLoggerService();
 
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ILogManager logger)
         {
             if (env.IsDevelopment())
             {
@@ -42,6 +44,9 @@ namespace Exam.Payments.WebApi
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Exam.Payments.WebApi v1"));
             }
+
+            app.ConfigureExceptionHandler(logger);
+            app.ConfigureCustomExceptionsMiddleware();
 
             app.UseHttpsRedirection();
 

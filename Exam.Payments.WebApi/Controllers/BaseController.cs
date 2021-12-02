@@ -1,6 +1,4 @@
-﻿using MediatR;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.DependencyInjection;
+﻿using Microsoft.AspNetCore.Mvc;
 
 namespace Exam.Payments.WebApi.Host.Controllers
 {
@@ -8,7 +6,5 @@ namespace Exam.Payments.WebApi.Host.Controllers
     [ApiController]
     public abstract class BaseController : ControllerBase
     {
-        //private IMediator _mediator;
-        //protected IMediator Mediator => _mediator ??= HttpContext.RequestServices.GetService<IMediator>();
     }
 }

@@ -1,5 +1,4 @@
 ﻿using Exam.Payments.WebApi.Domain.Users;
-using Microsoft.Extensions.Logging;
 
 namespace Exam.Payments.WebApi.Infrastructure.Repositories
 {

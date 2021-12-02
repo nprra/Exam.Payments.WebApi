@@ -1,10 +1,7 @@
 ﻿using Exam.Payments.WebApi.Domain;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Linq.Expressions;
 using System.Threading.Tasks;
 
 namespace Exam.Payments.WebApi.Infrastructure
@@ -22,7 +19,7 @@ namespace Exam.Payments.WebApi.Infrastructure
             _dbSet = context.Set<TEntity>();
         }
 
-        public virtual async Task<TEntity> GetAsync(int id)
+        public virtual async Task<TEntity> GetAsync(Guid id)
         {
             return await _dbSet.FindAsync(id);
         }
